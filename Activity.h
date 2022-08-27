@@ -18,7 +18,7 @@ using namespace std;
 //
 // @param n	The maximum limit of the sum.
 // @return	The result of the addition from 1 to n.
-// @Complexity	
+// @Complexity	O(n)
 // =================================================================
 	unsigned int sumaIterativa(unsigned int n) {
 		int suma;
@@ -35,7 +35,7 @@ using namespace std;
 //
 // @param n	The maximum limit of the sum.
 // @return	The result of the addition from 1 to n.
-// @Complexity	
+// @Complexity	O(n)
 // =================================================================
 unsigned int sumaRecursiva(unsigned int n) {
 	int suma;
@@ -56,7 +56,7 @@ unsigned int sumaRecursiva(unsigned int n) {
 //
 // @param n	The maximum limit of the sum.
 // @return	The result of the addition from 1 to n.
-// @Complexity	
+// @Complexity	O(1)
 // =================================================================
 unsigned int sumaDirecta(unsigned int n) {
   int suma = (n * (n + 1));
